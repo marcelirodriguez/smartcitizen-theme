@@ -1,0 +1,68 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,300italic,400italic,700,700italic|Roboto:400,700,700italic,400italic);
+@import url('https://fonts.googleapis.com/css?family=Kanit:400,500,600,700,900');
+
+:root{
+  --black: #262626;
+  --blue: #0019FF;
+  --blue_light: #55C4F5;
+  --dark_form: #221E1B;
+  --green: #00E597;
+  --grey: #BCBCBC;
+  --grey_bg: #E3E3E3;
+  --purple: #5B22B2;
+  --purple_footer: #4919A2;
+  --red: #FF3A4B;
+  --yellow: #FFBA00;
+  --yellow_light: #FFD44D;
+  --yellow_lighter: #FFECB3;
+}
+
+body{
+  font-family: 'Kanit';
+  color: var(--black);
+}
+
+h1{
+  text-transform: uppercase;
+  font-weight: 700;
+}
+h2{
+  text-transform: uppercase;
+  font-weight: 700;
+}
+h3{
+  font-size:18px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.btn{
+  text-transform: uppercase;
+  border-radius:30px;
+  font-weight: 600;
+  padding:12px 29px;
+}
+
+.btn-yellow{
+  background-color: var(--yellow);
+  color: var(--black);
+}
+.btn-yellow:hover{
+  background-color: var(--yellow_light);
+  color: var(--black);
+}
+.btn-yellow-outline{
+  border: 2px solid var(--yellow);
+  color: var(--yellow);
+}
+.btn-yellow-outline:hover{
+  border: 2px solid var(--yellow);
+  background-color: var(--yellow);
+  color: var(--black);
+}
+
+
+.bg-purple{
+  background: var(--purple);
+  color: white;
+}
