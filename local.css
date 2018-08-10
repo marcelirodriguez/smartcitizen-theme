@@ -40,6 +40,14 @@ h4{
   text-transform: uppercase;
   font-weight: 600;
 }
+h5{
+  font-size:14px;
+  margin: 0;
+}
+p{
+  font-size:14px;
+  margin: 0;
+}
 
 .bg-black{
   background: var(--black);
@@ -53,6 +61,14 @@ h4{
 }
 .bg-purple{
   background: var(--purple_bg);
+  color: white;
+}
+.bg-red{
+  background: var(--red);
+  color: white;
+}
+.bg-yellow{
+  background: var(--yellow);
   color: white;
 }
 
@@ -93,30 +109,39 @@ h4{
   background-color: var(--yellow);
   color: var(--black);
 }
-
-.shadow-yellow{
-  box-shadow: 7px 10px var(--yellow);
-}
-
-.shadow-grey{
-  box-shadow: 7px 10px var(--grey);
-}
-.text-yellow{
-  color: var(--yellow);
-}
-
-.grey-waves{
-  background: grey url("/images/sck_bg.png") ;
-  background-repeat: repeat;
-  background-size: 65px;
+.footer li{
+  font-size: 13px;
 }
 .footer-note{
   color: var(--grey);
   font-size:13px;
 }
-.footer li{
-  font-size: 13px;
+.grey-waves{
+  background: grey url("/images/sck_bg.png") ;
+  background-repeat: repeat;
+  background-size: 65px;
+}
+.measure{
+  
+}
+.shadow-yellow{
+  box-shadow: 7px 10px var(--yellow);
+}
+.shadow-grey{
+  box-shadow: 7px 10px var(--grey);
+}
+.shadow-white{
+  box-shadow: 7px 10px white;
 }
 .sc-card p{
   min-height: 110px;
 }
+
+.text-yellow{
+  color: var(--yellow);
+}
+
+.outline{
+  outline: 1px solid red;
+}
+
