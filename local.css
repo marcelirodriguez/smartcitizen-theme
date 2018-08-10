@@ -10,7 +10,7 @@
   --grey: #BCBCBC;
   --grey_bg: #E3E3E3;
   --purple: #5B22B2;
-  --purple_footer: #4919A2;
+  --purple_bg: #4919A2;
   --red: #FF3A4B;
   --yellow: #FFBA00;
   --yellow_light: #FFD44D;
@@ -49,7 +49,7 @@ h4{
   background: var(--grey_bg);
 }
 .bg-purple{
-  background: var(--purple);
+  background: var(--purple_bg);
   color: white;
 }
 
@@ -64,6 +64,10 @@ h4{
   padding:12px 29px;
 }
 
+.btn-black-outline{
+  border: 2px solid var(--black);
+  color: var(--black);
+}
 .btn-purple{
   background-color: var(--purple);
   color: var(--white);
@@ -105,4 +109,7 @@ h4{
 }
 .footer li{
   font-size: 13px;
+}
+.sc-card p{
+  min-height: 110px;
 }
