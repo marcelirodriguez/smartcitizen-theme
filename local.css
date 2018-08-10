@@ -41,6 +41,9 @@ h4{
   font-weight: 600;
 }
 
+.bg-black{
+  background: var(--black);
+}
 .bg-blue{
   background: var(--blue);
   color: white;
@@ -60,6 +63,7 @@ h4{
 .btn{
   text-transform: uppercase;
   border-radius:30px;
+  font-size:15px;
   font-weight: 600;
   padding:12px 29px;
 }
@@ -96,6 +100,9 @@ h4{
 
 .shadow-grey{
   box-shadow: 7px 10px var(--grey);
+}
+.text-yellow{
+  color: var(--yellow);
 }
 
 .grey-waves{
