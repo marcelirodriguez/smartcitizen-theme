@@ -45,8 +45,7 @@ h5{
   margin: 0;
 }
 p{
-  font-size:14px;
-  margin: 0;
+  font-size:13px;
 }
 
 .bg-black{
@@ -121,7 +120,9 @@ p{
   background-repeat: repeat;
   background-size: 65px;
 }
-.measure{
+.measure-description{
+  overflow: auto;
+  height:220px;
   
 }
 .shadow-yellow{
