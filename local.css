@@ -15,7 +15,6 @@
   --yellow: #FFBA00;
   --yellow_light: #FFD44D;
   --yellow_lighter: #FFECB3;
-  --white: #FFFFFF;
 }
 
 body{
@@ -150,14 +149,19 @@ p{
   overflow: auto;
   height:220px;
 }
+.shadow-white{
+  box-shadow:
+    10px 10px 0px -2px var(--white),
+    10px 10px 0px 0px var(--black);
+}
+
 .shadow-yellow{
-  box-shadow: 7px 10px var(--yellow);
+  box-shadow: 10px 10px 0px -2px var(--yellow),
+    10px 10px 0px 0px var(--black);
 }
 .shadow-grey{
-  box-shadow: 7px 10px var(--grey);
-}
-.shadow-white{
-  box-shadow: 7px 10px white;
+  box-shadow: 10px 10px 0px -2px var(--grey),
+    10px 10px 0px 0px var(--black);
 }
 .sc-card p{
   min-height: 110px;
@@ -166,9 +170,11 @@ p{
 .text-yellow{
   color: var(--yellow);
 }
+.text-blue{
+  color: var(--blue);
+}
 
 /* Debug helper */
 .outline{
   outline: 1px solid red;
 }
-
