@@ -162,6 +162,15 @@ p{
   background-color: var(--yellow);
   color: var(--black);
 }
+.btn-red{
+  background-color: var(--red);
+  color: var(--white);
+}
+.btn-red:hover{
+  background-color: var(--red);
+  color: var(--black);
+}
+
 .btn-red-outline{
   border: 2px solid var(--red);
   color: var(--red);
@@ -234,6 +243,10 @@ p{
 .text-purple{
   color: var(--purple);
 }
+.text-red{
+  color: var(--red);
+}
+
 
 /* Debug helper */
 .outline{
