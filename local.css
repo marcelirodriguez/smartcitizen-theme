@@ -194,6 +194,11 @@ p{
   box-shadow: 10px 10px 0px -2px var(--white),
     10px 10px 0px 0px var(--black);
 }
+.shadow-on-card{
+  position:absolute;
+  top: -9%;
+  left: 12%;
+}
 .sc-card p{
   min-height: 110px;
 }
