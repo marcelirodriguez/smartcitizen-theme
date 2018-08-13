@@ -113,6 +113,14 @@ p{
   background-color: var(--blue);
   color: var(--grey);
 }
+.btn-blue-outline{
+  border: 2px solid var(--blue);
+  color: var(--blue);
+}
+.btn-blue-outline:hover{
+  background-color: var(--blue);
+  color: var(--white);
+}
 .btn-black-outline{
   border: 2px solid var(--black);
   color: var(--black);
@@ -154,6 +162,15 @@ p{
   background-color: var(--yellow);
   color: var(--black);
 }
+.btn-red-outline{
+  border: 2px solid var(--red);
+  color: var(--red);
+}
+.btn-red-outline:hover{
+  background-color: var(--red);
+  color: var(--white);
+}
+
 .footer li{
   font-size: 13px;
 }
@@ -170,6 +187,11 @@ p{
   overflow: auto;
   height:220px;
 }
+.service-description{
+  overflow: auto;
+  min-height:200px;
+}
+
 .shadow-blue{
   box-shadow: 10px 10px 0px -2px var(--blue),
     10px 10px 0px 0px var(--black);
